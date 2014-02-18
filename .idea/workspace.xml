@@ -46,18 +46,44 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/widest_waterfall_in_the_world-wallpaper-1920x1080.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/winter_sliding-wallpaper-3200x2400.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/App/Util/Size.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App.js" afterPath="$PROJECT_DIR$/js/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="Homepage.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392661598461" ignored="false" />
-    <file path="/index.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392660327942" ignored="false" />
-    <file path="/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392660035895" ignored="false" />
+    <file path="/index.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392747290582" ignored="false" />
+    <file path="/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392744716062" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392717104919" ignored="false" />
+    <file path="/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392711536003" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392736230930" ignored="false" />
+    <file path="/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392736229523" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filter.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392731353534" ignored="false" />
+    <file path="/a.dummy" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392735760144" ignored="false" />
+    <file path="/Filter.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392731234141" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392716087269" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/stores/direkt-vermarktungen/css/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732882135" ignored="false" />
+    <file path="/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732881601" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/OverviewPageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392716025995" ignored="false" />
+    <file path="/OverviewPageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392716197603" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/stores/direkt-vermarktungen/css/overview.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392738106077" ignored="false" />
+    <file path="/overview.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392735983996" ignored="false" />
+    <file path="/dummy.xml" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392742189165" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/page/Overview.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392734143152" ignored="false" />
+    <file path="/Overview.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392734141966" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392741485778" ignored="false" />
+    <file path="/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392741432672" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/JsStorage.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732050251" ignored="false" />
+    <file path="/JsStorage.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732037805" ignored="false" />
+    <file path="/style.less" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392747506925" ignored="false" />
+    <file path="/Size.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392745619497" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,44 +102,86 @@
     <favorites_list name="Homepage" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="-9.153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.17545871">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5217129">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="63" column="78" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.81914896">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <marker date="1392747507723" expanded="true" signature="206:321" placeholder="{...}" />
+                    <marker date="1392747507723" expanded="true" signature="675:679" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Size.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/App/Util/Size.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <marker date="1392746764705" expanded="true" signature="14:530" placeholder="{...}" />
+                    <marker date="1392746764705" expanded="true" signature="34:427" placeholder="{&quot;_windowHeight&quot;: 0...}" />
+                    <marker date="1392746764705" expanded="true" signature="211:423" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap-theme.min.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.min.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="3" selection-start="503" selection-end="504" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6043578">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -132,8 +200,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/libs/jquery.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/libs/less.js" />
+        <option value="$PROJECT_DIR$/libs/jquery-dev.js" />
         <option value="$PROJECT_DIR$/js/App.js" />
+        <option value="$PROJECT_DIR$/js/App/Util/Size.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.less" />
       </list>
     </option>
   </component>
@@ -197,6 +269,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -211,7 +297,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,26 +319,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bg_samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="style.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -297,17 +377,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11526147" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -380,15 +460,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="83615" selection-start="83615" selection-end="83615" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -403,16 +474,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://C:/Users/mruescher/AppData/Local/Temp/Rar$DRa0.311/bootstrap-3.1.1-dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="-9.153846">
+        <state line="2369" column="21" selection-start="44897" selection-end="44897" vertical-scroll-proportion="0.21103117">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="503" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="83615" selection-start="83615" selection-end="83615" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/less.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1762" selection-start="98230" selection-end="98230" vertical-scroll-proportion="0.29685682">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.17545871">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/Util/Size.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1392746764705" expanded="true" signature="14:530" placeholder="{...}" />
+            <marker date="1392746764705" expanded="true" signature="34:427" placeholder="{&quot;_windowHeight&quot;: 0...}" />
+            <marker date="1392746764705" expanded="true" signature="211:423" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="78" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.81914896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6043578">
           <folding />
         </state>
       </provider>

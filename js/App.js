@@ -1,10 +1,16 @@
-window.App = {};
+var App = {};
+
 (function($) {
 	'use strict';
-	var App = window.App;
 
 	App = {
-
+		init: function() {
+			for (var obj in this.Util) {
+				this.Util[obj].init();
+			}
+		}
 	};
+
+	App.Util = {};
 
 })(jQuery);

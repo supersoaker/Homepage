@@ -4,19 +4,66 @@
     <meta charset="UTF-8">
     <title>marlons superseite!</title>
 
-    <!--===== Scripts =====-->
-    <script type="text/javascript" src="js/App.js"></script>
 
-    <!--===== Styles =====-->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <!--===== Styles    =====-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+
+
+
+    <!--===== Js Libs   =====-->
+    <script type="text/javascript" src="libs/jquery.js"></script>
+    <script>
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            poll: 1000,
+            functions: {},
+            dumpLineNumbers: "comments",
+            relativeUrls: false
+        };
+    </script><script type="text/javascript" src="libs/less.js"></script>
+
+
+
+    <!--===== Scripts   =====-->
+    <script type="text/javascript" src="js/App.js"></script>
+    <script type="text/javascript" src="js/App/Util/Size.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            App.init();
+        });
+//        window.
+//        $('section').each( function() {
+//            $(this)
+//        } )
+
+    </script>
+
+
 </head>
 <body>
 
-    <nav>
+    <div id="navi-wrapper">
+        <nav>
 
-    </nav>
+        </nav>
+    </div>
 
+    <div id="content-wrapper">
+        <section>
+            <img src="images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" alt=""/>
+        </section>
+
+        <section>
+            <img src="images/bg_samples/attom-wallpaper-1920x1080.jpg" alt=""/>
+        </section>
+
+        <section>
+            <img src="images/bg_samples/nature_norway_-wallpaper-1920x1200.jpg" alt=""/>
+        </section>
+    </div>
 
 </body>
 </html>
