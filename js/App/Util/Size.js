@@ -1,4 +1,4 @@
-(function ($) {
+(function ($, window) {
 
 	App.Util.Size = {
 
@@ -7,12 +7,13 @@
 		init: function () {
 			this.updateWindowSize();
 			$( window ).on( 'resize', this.updateWindowSize.bind(this) );
+			$( '#content-wrapper' ).css( 'height', window.innerHeight );
 		},
 
 		updateWindowSize: function() {
-			if( $( window ).height() !== this._windowHeight ) {
+			if( window.innerHeight !== this._windowHeight ) {
 				this._onHeightChange();
-				this._windowHeight = $( window ).height();
+				this._windowHeight = window.innerHeight;
 			}
 //			else {
 //				console.log( "width geändert aber nicht height" );
@@ -20,9 +21,8 @@
 		},
 
 		_onHeightChange : function() {
-
-			$('section').css( 'height', $( 'body' ).outerHeight() );
+			$('section').css( 'height', window.innerHeight );
 		}
 	};
 
-})(jQuery);
+})(jQuery, window);

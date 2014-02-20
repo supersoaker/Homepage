@@ -1,8 +1,3 @@
-body,
-html {
-  height: 100%;
-  width: 100%;
-}
 #navi-wrapper {
   z-index: 0;
   height: 100%;
@@ -13,6 +8,11 @@ html {
 }
 #content-wrapper {
   position: relative;
+  overflow-y: scroll;
+  -webkit-transform: translateX(-200px);
+  -moz-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  -o-transform: translateX(-200px);
   transform: translateX(-200px);
   z-index: 1;
 }
@@ -25,4 +25,5 @@ html {
   width: 100%;
   position: absolute;
   bottom: 0;
+  right: 0;
 }

@@ -1,89 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853291a8-e88c-4d84-9afa-d96e0cff19d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/IMG_0031.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/_MG_7148.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/attom-wallpaper-1920x1080.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/avenue-wallpaper-1920x1200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/beautiful_mountain_lakes-wallpaper-2560x1440.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/c982a861-eb5f-46dc-88de-8eea0ca22cc1_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/californian_forest.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/canyon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/cathedral_grove_rainforest-wallpaper-3200x2400.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/fall_of_the_year-wallpaper-2048x1152.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fifth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/firstBG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/forest_shower-wallpaper-3840x2160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/grand_canyon_6-wallpaper-3840x2160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/header-lcorner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/header-rcorner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/nature_norway_-wallpaper-1920x1200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/purple_stars-wallpaper-2048x1152.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/render.nikeid.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/render.nikeid1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/render.nikeid2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/render.nikeid3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/secondBG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/tea_splash_3-wallpaper-2560x1440.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/teaser-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/teaser-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/teaser-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/teaser-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/teaser-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/thirdBG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trainers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/widest_waterfall_in_the_world-wallpaper-1920x1080.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/winter_sliding-wallpaper-3200x2400.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/App/Util/Size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.less" />
+    <list default="true" id="853291a8-e88c-4d84-9afa-d96e0cff19d1" name="Default" comment="started">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/App/Util/Navi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/App/Util/Scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.smoothwheel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App.js" afterPath="$PROJECT_DIR$/js/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/App/Util/Size.js" afterPath="$PROJECT_DIR$/js/App/Util/Size.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Homepage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392661598461" ignored="false" />
-    <file path="/index.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392747290582" ignored="false" />
-    <file path="/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392744716062" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392717104919" ignored="false" />
-    <file path="/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392711536003" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392736230930" ignored="false" />
-    <file path="/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392736229523" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filter.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392731353534" ignored="false" />
+    <file path="/Dummy.txt" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392747607963" ignored="false" />
+    <file path="/index.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392908714604" ignored="false" />
+    <file path="/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392908316639" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906539202" ignored="false" />
+    <file path="/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906537033" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906668395" ignored="false" />
+    <file path="/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906668395" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filter.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392804403238" ignored="false" />
     <file path="/a.dummy" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392735760144" ignored="false" />
-    <file path="/Filter.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392731234141" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392716087269" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/stores/direkt-vermarktungen/css/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732882135" ignored="false" />
-    <file path="/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732881601" ignored="false" />
+    <file path="/Filter.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392801173239" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392893328147" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/stores/direkt-vermarktungen/css/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392890399158" ignored="false" />
+    <file path="/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392890400811" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/OverviewPageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392716025995" ignored="false" />
     <file path="/OverviewPageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392716197603" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/stores/direkt-vermarktungen/css/overview.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392738106077" ignored="false" />
-    <file path="/overview.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392735983996" ignored="false" />
-    <file path="/dummy.xml" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392742189165" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/stores/direkt-vermarktungen/css/overview.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906607478" ignored="false" />
+    <file path="/overview.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906607478" ignored="false" />
+    <file path="/dummy.xml" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392908715535" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/page/Overview.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392734143152" ignored="false" />
     <file path="/Overview.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392734141966" ignored="false" />
-    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392741485778" ignored="false" />
-    <file path="/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392741432672" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392819855466" ignored="false" />
+    <file path="/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392819583718" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/JsStorage.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732050251" ignored="false" />
     <file path="/JsStorage.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732037805" ignored="false" />
-    <file path="/style.less" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392747506925" ignored="false" />
-    <file path="/Size.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392745619497" ignored="false" />
+    <file path="/style.less" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392909713644" ignored="false" />
+    <file path="/Size.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392901173416" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/css/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392822164323" ignored="false" />
+    <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/Selector.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392892453603" ignored="false" />
+    <file path="/Selector.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392891972958" ignored="false" />
+    <file path="/Scroll.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392893751075" ignored="false" />
+    <file path="/jquery.smoothwheel.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392893823442" ignored="false" />
+    <file path="/Navi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392902401409" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +71,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="78" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.81914896">
+                <state line="50" column="30" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5579196">
                   <folding />
                 </state>
               </provider>
@@ -119,8 +82,8 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding>
-                    <marker date="1392747507723" expanded="true" signature="206:321" placeholder="{...}" />
-                    <marker date="1392747507723" expanded="true" signature="675:679" placeholder="{...}" />
+                    <marker date="1392909714112" expanded="true" signature="809:926" placeholder="{...}" />
+                    <marker date="1392909714112" expanded="true" signature="1486:1490" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -138,7 +101,7 @@
           <file leaf-file-name="App.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+                <state line="21" column="73" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -147,12 +110,17 @@
           <file leaf-file-name="Size.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/App/Util/Size.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <marker date="1392746764705" expanded="true" signature="14:530" placeholder="{...}" />
-                    <marker date="1392746764705" expanded="true" signature="34:427" placeholder="{&quot;_windowHeight&quot;: 0...}" />
-                    <marker date="1392746764705" expanded="true" signature="211:423" placeholder="{...}" />
-                  </folding>
+                <state line="15" column="56" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Scroll.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/App/Util/Scroll.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -173,7 +141,25 @@
           <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6043578">
+                <state line="54" column="27" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.3956422">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Navi.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/App/Util/Navi.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="9" selection-start="332" selection-end="338" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jquery.smoothwheel.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libs/jquery.smoothwheel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="6" selection-start="574" selection-end="574" vertical-scroll-proportion="32.64">
                   <folding />
                 </state>
               </provider>
@@ -202,8 +188,12 @@
         <option value="$PROJECT_DIR$/libs/jquery.js" />
         <option value="$PROJECT_DIR$/libs/less.js" />
         <option value="$PROJECT_DIR$/libs/jquery-dev.js" />
-        <option value="$PROJECT_DIR$/js/App.js" />
+        <option value="$PROJECT_DIR$/js/App/Util/Scroll.js" />
+        <option value="$PROJECT_DIR$/Marlon_Normal.xml" />
+        <option value="$PROJECT_DIR$/libs/jquery.smoothwheel.js" />
         <option value="$PROJECT_DIR$/js/App/Util/Size.js" />
+        <option value="$PROJECT_DIR$/js/App/Util/Navi.js" />
+        <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.less" />
       </list>
@@ -214,6 +204,40 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>XPath</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -297,28 +321,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -347,11 +349,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Marlon_Normal.xml" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\_github\Homepage\js" />
+      <recent name="C:\xampp\htdocs\_github\Homepage\js\App" />
+      <recent name="C:\xampp\htdocs\_github\Homepage\libs" />
       <recent name="C:\xampp\htdocs\_github\Homepage\css" />
       <recent name="C:\xampp\htdocs\_github\Homepage" />
     </key>
@@ -386,7 +395,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11526147" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -474,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Users/mruescher/AppData/Local/Temp/Rar$DRa0.311/bootstrap-3.1.1-dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2369" column="21" selection-start="44897" selection-end="44897" vertical-scroll-proportion="0.21103117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="3" selection-start="503" selection-end="504" vertical-scroll-proportion="0.0">
@@ -502,39 +504,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/App.js">
+    <entry file="file://$PROJECT_DIR$/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marlon_Normal.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/Util/Scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery.smoothwheel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="574" selection-end="574" vertical-scroll-proportion="32.64">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/App/Util/Size.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1392746764705" expanded="true" signature="14:530" placeholder="{...}" />
-            <marker date="1392746764705" expanded="true" signature="34:427" placeholder="{&quot;_windowHeight&quot;: 0...}" />
-            <marker date="1392746764705" expanded="true" signature="211:423" placeholder="{...}" />
-          </folding>
+        <state line="15" column="56" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="73" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App/Util/Navi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="332" selection-end="338" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="78" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.81914896">
+        <state line="50" column="30" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5579196">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6043578">
+        <state line="54" column="27" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.3956422">
           <folding />
         </state>
       </provider>

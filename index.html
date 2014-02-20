@@ -13,6 +13,7 @@
 
     <!--===== Js Libs   =====-->
     <script type="text/javascript" src="libs/jquery.js"></script>
+    <script type="text/javascript" src="libs/jquery.smoothwheel.js"></script>
     <script>
         less = {
             env: "development",
@@ -30,15 +31,12 @@
     <!--===== Scripts   =====-->
     <script type="text/javascript" src="js/App.js"></script>
     <script type="text/javascript" src="js/App/Util/Size.js"></script>
+    <script type="text/javascript" src="js/App/Util/Navi.js"></script>
+    <script type="text/javascript" src="js/App/Util/Scroll.js"></script>
     <script type="text/javascript">
         $(function() {
             App.init();
         });
-//        window.
-//        $('section').each( function() {
-//            $(this)
-//        } )
-
     </script>
 
 
@@ -47,11 +45,16 @@
 
     <div id="navi-wrapper">
         <nav>
-
         </nav>
     </div>
 
     <div id="content-wrapper">
+        <div id="on-content-navi">
+            <div id="menu-button">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </div>
+        </div>
+
         <section>
             <img src="images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" alt=""/>
         </section>
