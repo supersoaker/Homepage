@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="de_DE">
 <head>
+	<!--===== Meta      ======-->
     <meta charset="UTF-8">
     <title>marlons superseite!</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!--===== Styles    =====-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <link rel="stylesheet" href="index/css/bootstrap.min.css" />
+    <link rel="stylesheet/less" type="text/css" href="index/css/style.less" />
 
 
 
     <!--===== Js Libs   =====-->
-    <script type="text/javascript" src="libs/jquery.js"></script>
-    <script type="text/javascript" src="libs/jquery.smoothwheel.js"></script>
+    <script type="text/javascript" src="index/libs/jquery.js"></script>
+    <script type="text/javascript" src="index/libs/jquery.smoothwheel.js"></script>
     <script>
         less = {
             env: "development",
@@ -24,15 +25,15 @@
             dumpLineNumbers: "comments",
             relativeUrls: false
         };
-    </script><script type="text/javascript" src="libs/less.js"></script>
+    </script><script type="text/javascript" src="index/libs/less.js"></script>
 
 
 
     <!--===== Scripts   =====-->
-    <script type="text/javascript" src="js/App.js"></script>
-    <script type="text/javascript" src="js/App/Util/Size.js"></script>
-    <script type="text/javascript" src="js/App/Util/Navi.js"></script>
-    <script type="text/javascript" src="js/App/Util/Scroll.js"></script>
+    <script type="text/javascript" src="index/js/App.js"></script>
+    <script type="text/javascript" src="index/js/App/Util/Size.js"></script>
+    <script type="text/javascript" src="index/js/App/Util/Navi.js"></script>
+    <script type="text/javascript" src="index/js/App/Util/Scroll.js"></script>
     <script type="text/javascript">
         $(function() {
             App.init();
@@ -48,23 +49,61 @@
         </nav>
     </div>
 
+    <div id="on-content-navi">
+	    <div id="menu-button">
+		   <span class="btn btn-default btn-lg">
+			   Menü
+			   <span class="open-navi glyphicon glyphicon-chevron-right"></span>
+			   <span class="close-navi glyphicon glyphicon-chevron-left"></span>
+		   </span>
+	    </div>
+    </div>
+
     <div id="content-wrapper">
-        <div id="on-content-navi">
-            <div id="menu-button">
-                <span class="glyphicon glyphicon-align-justify"></span>
-            </div>
-        </div>
-
         <section>
-            <img src="images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" alt=""/>
+	        <div class="img-wrapper">
+                <img src="index/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" alt=""/>
+	        </div>
+	        <div class="context">
+		        <p class="text">
+
+
+		        </p>
+		        <div class="next-section">
+			        <span class="glyphicon glyphicon-circle-arrow-down"></span>
+		        </div>
+	        </div>
         </section>
 
         <section>
-            <img src="images/bg_samples/attom-wallpaper-1920x1080.jpg" alt=""/>
+	        <div class="img-wrapper">
+                <img src="index/images/bg_samples/attom-wallpaper-1920x1080.jpg" alt=""/>
+	        </div>
+	        <div class="context">
+				<p class="text">
+
+
+				</p>
+		        <div class="next-section">
+			        <span class="glyphicon glyphicon-circle-arrow-down"></span>
+		        </div>
+	        </div>
         </section>
 
         <section>
-            <img src="images/bg_samples/nature_norway_-wallpaper-1920x1200.jpg" alt=""/>
+	        <div class="img-wrapper" style="
+	            background-image        : url('index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg');
+	            background-position     : bottom right;
+	            background-attachment   : fixed;
+	        ">
+		        <!--<img src="index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg" alt=""/>-->
+	        </div>
+	        <div class="context">
+		        <p class="text">
+
+
+		        </p>
+	        </div>
         </section>
     </div>
 

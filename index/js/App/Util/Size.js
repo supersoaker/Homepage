@@ -7,7 +7,6 @@
 		init: function () {
 			this.updateWindowSize();
 			$( window ).on( 'resize', this.updateWindowSize.bind(this) );
-			$( '#content-wrapper' ).css( 'height', window.innerHeight );
 		},
 
 		updateWindowSize: function() {
@@ -22,7 +21,13 @@
 
 		_onHeightChange : function() {
 			$('section').css( 'height', window.innerHeight );
+			$( '#content-wrapper' ).css( 'height', window.innerHeight );
+//			$('section .context').css( 'height', this.getPercentageHeight(30) );
 		}
+
+//		getPercentageHeight: function( percentage ) {
+//			return window.innerHeight / (100 / percentage);
+//		}
 	};
 
 })(jQuery, window);
