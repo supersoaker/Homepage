@@ -1,71 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="853291a8-e88c-4d84-9afa-d96e0cff19d1" name="Default" comment="started">
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/index/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/index/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\css\style.css" afterPath="$PROJECT_DIR$/index/css/style.css" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\css\style.less" afterPath="$PROJECT_DIR$/index/css/style.less" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/index/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/index/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/index/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/index/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\IMG_0031.jpg" afterPath="$PROJECT_DIR$/index/images/IMG_0031.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\_MG_7148.jpg" afterPath="$PROJECT_DIR$/index/images/_MG_7148.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg-2.png" afterPath="$PROJECT_DIR$/index/images/bg-2.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg.jpg" afterPath="$PROJECT_DIR$/index/images/bg.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg.png" afterPath="$PROJECT_DIR$/index/images/bg.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\attom-wallpaper-1920x1080.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/attom-wallpaper-1920x1080.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\avenue-wallpaper-1920x1200.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/avenue-wallpaper-1920x1200.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\beautiful_mountain_lakes-wallpaper-2560x1440.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/beautiful_mountain_lakes-wallpaper-2560x1440.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\c982a861-eb5f-46dc-88de-8eea0ca22cc1_5.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/c982a861-eb5f-46dc-88de-8eea0ca22cc1_5.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\californian_forest.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/californian_forest.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\cathedral_grove_rainforest-wallpaper-3200x2400.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/cathedral_grove_rainforest-wallpaper-3200x2400.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\fall_of_the_year-wallpaper-2048x1152.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/fall_of_the_year-wallpaper-2048x1152.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\forest_shower-wallpaper-3840x2160.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/forest_shower-wallpaper-3840x2160.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\grand_canyon_6-wallpaper-3840x2160.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/grand_canyon_6-wallpaper-3840x2160.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\iceland_landscape-wallpaper-2560x1600.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\nature_norway_-wallpaper-1920x1200.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/nature_norway_-wallpaper-1920x1200.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\purple_stars-wallpaper-2048x1152.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/purple_stars-wallpaper-2048x1152.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\tea_splash_3-wallpaper-2560x1440.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/tea_splash_3-wallpaper-2560x1440.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\widest_waterfall_in_the_world-wallpaper-1920x1080.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/widest_waterfall_in_the_world-wallpaper-1920x1080.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\winter_sliding-wallpaper-3200x2400.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/winter_sliding-wallpaper-3200x2400.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\bg_samples\yosemite_natural_park-wallpaper-2880x1800.jpg" afterPath="$PROJECT_DIR$/index/images/bg_samples/yosemite_natural_park-wallpaper-2880x1800.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\canyon.jpg" afterPath="$PROJECT_DIR$/index/images/canyon.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\dot.png" afterPath="$PROJECT_DIR$/index/images/dot.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\fifth.png" afterPath="$PROJECT_DIR$/index/images/fifth.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\firstBG.jpg" afterPath="$PROJECT_DIR$/index/images/firstBG.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\header-lcorner.png" afterPath="$PROJECT_DIR$/index/images/header-lcorner.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\header-rcorner.png" afterPath="$PROJECT_DIR$/index/images/header-rcorner.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\pattern.png" afterPath="$PROJECT_DIR$/index/images/pattern.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\pt.jpg" afterPath="$PROJECT_DIR$/index/images/pt.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\render.nikeid.jpg" afterPath="$PROJECT_DIR$/index/images/render.nikeid.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\render.nikeid1.jpg" afterPath="$PROJECT_DIR$/index/images/render.nikeid1.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\render.nikeid2.jpg" afterPath="$PROJECT_DIR$/index/images/render.nikeid2.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\render.nikeid3.jpg" afterPath="$PROJECT_DIR$/index/images/render.nikeid3.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\secondBG.jpg" afterPath="$PROJECT_DIR$/index/images/secondBG.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\teaser-1.jpg" afterPath="$PROJECT_DIR$/index/images/teaser-1.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\teaser-2.jpg" afterPath="$PROJECT_DIR$/index/images/teaser-2.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\teaser-3.jpg" afterPath="$PROJECT_DIR$/index/images/teaser-3.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\teaser-4.jpg" afterPath="$PROJECT_DIR$/index/images/teaser-4.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\teaser-5.jpg" afterPath="$PROJECT_DIR$/index/images/teaser-5.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\thirdBG.jpg" afterPath="$PROJECT_DIR$/index/images/thirdBG.jpg" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\images\trainers.png" afterPath="$PROJECT_DIR$/index/images/trainers.png" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\js\App.js" afterPath="$PROJECT_DIR$/index/js/App.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\js\App\Util\Navi.js" afterPath="$PROJECT_DIR$/index/js/App/Util/Navi.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\js\App\Util\Scroll.js" afterPath="$PROJECT_DIR$/index/js/App/Util/Scroll.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\js\App\Util\Size.js" afterPath="$PROJECT_DIR$/index/js/App/Util/Size.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\libs\jquery.js" afterPath="$PROJECT_DIR$/index/libs/jquery.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\libs\jquery.smoothwheel.js" afterPath="$PROJECT_DIR$/index/libs/jquery.smoothwheel.js" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\_github\Homepage\libs\less.js" afterPath="$PROJECT_DIR$/index/libs/less.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="853291a8-e88c-4d84-9afa-d96e0cff19d1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/js/App.js" afterPath="$PROJECT_DIR$/index/js/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/js/App/Util/Navi.js" afterPath="$PROJECT_DIR$/index/js/App/Util/Navi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/js/App/Util/Scroll.js" afterPath="$PROJECT_DIR$/index/js/App/Util/Scroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/js/App/Util/Size.js" afterPath="$PROJECT_DIR$/index/js/App/Util/Size.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/css/style.less" afterPath="$PROJECT_DIR$/index/css/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Homepage.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1393619101649" ignored="false" />
+    <file path="/Dummy.txt" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1394133167547" ignored="false" />
     <file path="/index.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1393627922433" ignored="false" />
-    <file path="/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1393630107874" ignored="false" />
+    <file path="/App.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1394130576174" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906539202" ignored="false" />
     <file path="/Filternavi.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906537033" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/ebay-test-site.html" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392906668395" ignored="false" />
@@ -87,7 +35,7 @@
     <file path="/ArticlePageHandler.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392819583718" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/app/generic/JsStorage.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732050251" ignored="false" />
     <file path="/JsStorage.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392732037805" ignored="false" />
-    <file path="/style.less" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1393629217249" ignored="false" />
+    <file path="/style.less" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1394132536080" ignored="false" />
     <file path="/Size.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1393619747387" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/css/global.css" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392822164323" ignored="false" />
     <file path="$PROJECT_DIR$/../../_workin/ebay_new/js/Selector.js" changelist="853291a8-e88c-4d84-9afa-d96e0cff19d1" time="1392892453603" ignored="false" />
@@ -119,36 +67,16 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="77" column="17" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-6.571429">
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state line="77" column="17" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-0.65384614">
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="App.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="App.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index/js/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="55" selection-start="671" selection-end="671" vertical-scroll-proportion="0.52698046">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Size.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index/js/App/Util/Size.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="9" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Scroll.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index/js/App/Util/Scroll.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="14" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+                <state line="16" column="10" selection-start="224" selection-end="224" vertical-scroll-proportion="0.31591174">
                   <folding />
                 </state>
               </provider>
@@ -158,19 +86,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="79" column="22" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.70655924">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Navi.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index/js/App/Util/Navi.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="39" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+                <state line="116" column="22" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.7860412">
                   <folding />
                 </state>
               </provider>
@@ -206,12 +125,12 @@
         <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/css/style.less" />
         <option value="$PROJECT_DIR$/js/App/Util/Size.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index/js/App/Util/Scroll.js" />
         <option value="$PROJECT_DIR$/index/js/App/Util/Size.js" />
         <option value="$PROJECT_DIR$/index/js/App/Util/Navi.js" />
-        <option value="$PROJECT_DIR$/index/js/App/Util/Scroll.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index/css/style.less" />
         <option value="$PROJECT_DIR$/index/js/App.js" />
+        <option value="$PROJECT_DIR$/index/css/style.less" />
       </list>
     </option>
   </component>
@@ -327,29 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bg_samples" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,8 +260,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -419,7 +316,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1814301" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18356457" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -545,9 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="503" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="3" selection-start="503" selection-end="504" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/libs/jquery.smoothwheel.js">
@@ -564,46 +459,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/js/App/Util/Size.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/js/App/Util/Navi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+        <state line="77" column="17" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/js/App/Util/Scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0389016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/js/App/Util/Size.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0389016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/js/App/Util/Navi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0389016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="224" selection-end="224" vertical-scroll-proportion="0.31591174">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="22" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.70655924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="17" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-6.571429">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/js/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="55" selection-start="671" selection-end="671" vertical-scroll-proportion="0.52698046">
+        <state line="116" column="22" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.7860412">
           <folding />
         </state>
       </provider>
