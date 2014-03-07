@@ -1,19 +1,39 @@
 var App = {};
 
-(function($, doc) {
+(function($, doc, window) {
 	'use strict';
 
 	App = {
+
+
 
 		init: function() {
 
 			// initialize all utilities
 			for (var obj in this.Util) {
-				this.Util[obj].init();
+				if( this.Util[obj].init() ){
+					this.Util[obj].init();
+				}
 			}
 
-
+			// add the smooth mousewheel
 			$("#content-wrapper").smoothWheel();
+
+			// add event listener on next section button
+//			$('.next-section').each(function( i ){
+//					console.log($('section'))
+////					console.log(that)
+//				$( this ).on('click', function(){
+////					console.log(123)
+//					$("#content-wrapper").scrollTo( $('section')[i+1], 800 );
+//				});
+//				console.log(i)
+//			});
+
+		},
+
+		smoothWheelCallback: function(){
+			console.log(123)
 		},
 
 		addStyles: function( styles ) {
@@ -125,7 +145,7 @@ var App = {};
 	};
 
 
-})(jQuery, document);
+})(jQuery, document, this);
 
 /*
 (function(){
