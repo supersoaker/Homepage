@@ -9,7 +9,7 @@
 	     -o-transform: @props;
 	        transform: @props;
 }
-.transition ( @cssProp, @props: 2s linear 0.5s ) {
+.transition ( @cssProp, @props: 2s linear ) {
 	-webkit-transition: @props;
 	   -moz-transition: @props;
 	    -ms-transition: @props;
@@ -17,11 +17,11 @@
 	        transition: @props;
 }
 .transitionAll (){
-	-webkit-transition: all 0.5s linear 0.5s;
-	   -moz-transition: all 0.5s linear 0.5s;
-	    -ms-transition: all 0.5s linear 0.5s;
-	     -o-transition: all 0.5s linear 0.5s;
-	        transition: all 0.5s linear 0.5s;
+	-webkit-transition: all 0.5s linear 0s;
+	   -moz-transition: all 0.5s linear 0s;
+	    -ms-transition: all 0.5s linear 0s;
+	     -o-transition: all 0.5s linear 0s;
+	        transition: all 0.5s linear 0s;
 }
 // functions End
 
@@ -38,8 +38,8 @@ body, html {
 {
 	z-index: 0;
 	height: 100%;
-	width: 30%;
-  z-index: 0;
+	width: 100%;
+//   z-index: 0;
 	position: fixed;
 	right: 0;
 	.addBg( 'pt.jpg' );
@@ -52,6 +52,7 @@ body, html {
   position: fixed;
   right: 0;
   top: 0;
+  width: 150px;
   .transitionAll();
   z-index: 2;
   //		.transform( translateZ(2));
@@ -82,7 +83,10 @@ body, html {
 	position: absolute;
 	.transitionAll();
 	z-index: 1;
-
+//    border-right: 1px solid black;
+//    -webkit-box-shadow: 0px 0px 100px -2px black;
+//    -moz-box-shadow:    0px 0px 100px -2px black;
+//    box-shadow:         0px 0px 100px -2px black;
 	section {
 	  overflow: hidden;
 	  width: 100%;
@@ -99,18 +103,12 @@ body, html {
 		height: 100%;
 	  }
 	  .context {
-		width: 100%;
 		height: 30%;
+        width: 100%;
 		top: 60%;
 		position: absolute;
 //		background: white;
-		.text {
-		  	height: 80%;
-			margin: 0 auto;
-			width: 800px;
-			background-color: white;
-			border-radius: 10px;
-		}
+
 		.next-section {
 		  text-align: center;
 		  height: 20%;
@@ -122,5 +120,39 @@ body, html {
 	  }
 	}
 }
+.text {
+  height: 80%;
+  margin: 0 auto;
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  opacity: 0.7;
+  padding: 20px;
+  h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width : 900px) {
+  .text {
+    width: auto;
+    margin: 0 20px;
+  }
+}
 
 
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width : 1024px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
+@media only screen and (max-width : 640px) {
+
+}

@@ -5,9 +5,21 @@ var App = {};
 
 	App = {
 
-
+        mobileDevice: false,
 
 		init: function() {
+
+            // check if navigator is a mobile device
+//            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                this.mobileDevice = true;
+            }
+
+            if( this.mobileDevice ){
+                this.mobileInitFn();
+            } else {
+                this.browserInitFn();
+            }
 
 			// initialize all utilities
 			for (var obj in this.Util) {
@@ -32,9 +44,20 @@ var App = {};
 
 		},
 
-		smoothWheelCallback: function(){
-			console.log(123)
-		},
+        mobileInitFn: function(){
+            $( '.img-wrapper').eq(2).html(
+                '<img src="index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg" alt=""/>'
+            );
+
+        },
+
+        browserInitFn: function(){
+            $( 'section').eq(2).css({
+                "background-image"        : "url('index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg')",
+                "background-position"     : "bottom right",
+                "background-attachment"   : "fixed"
+            });
+        },
 
 		addStyles: function( styles ) {
 			var styleElem = doc.createElement('style');
@@ -64,6 +87,8 @@ var App = {};
 		},
 
 		_onHeightChange : function() {
+
+            $("#content-wrapper").smoothWheel();
 			$('section').css( 'height', window.innerHeight );
 			$( '#content-wrapper' ).css( 'height', window.innerHeight );
 //			$('section .context').css( 'height', this.getPercentageHeight(30) );
@@ -103,8 +128,16 @@ var App = {};
 					};
 					this._naviIsShown = false;
 				} else {
-					var width = this.getPercentageWidth(30);
-					$('#content-wrapper, #on-content-navi').css('transform', 'translateX(-'+ width +'px)');
+//					var naviWidth = this.getPercentageWidth(30);
+					var naviWidth = 300;
+                    if( App.mobileDevice ){
+                        // correct the navi width for mibile devices
+                        // the window-width - the menu button
+//                        alert(window.innerWidth)
+                        naviWidth = window.innerWidth - 150;
+                        naviWidth = (naviWidth > 300) ? 300 : naviWidth;
+                    }
+					$('#content-wrapper, #on-content-navi').css('transform', 'translateX(-'+ naviWidth +'px)');
 					fn = function(){
 						$('.close-navi').hide();
 						$('.open-navi').show();
@@ -130,15 +163,19 @@ var App = {};
 		_sectionImages: {},
 
 		init: function () {
-			this._sectionImages = $('#content-wrapper img');
-			$( '#content-wrapper' ).scroll( this.onScroll.bind( this ) );
+
+            // if user is not a mobile device, add parallax
+            if( !App.mobileDevice ){
+                this._sectionImages = $('#content-wrapper img');
+                $( '#content-wrapper' ).scroll( this.onScroll.bind( this ) );
+            }
 		},
 
 		onScroll: function() {
-//			console.log(123)
 			this._sectionImages.each(function(){
 				var s = $(this).closest( 'section' ).offset().top;
-				$(this).css('bottom', '-'+ (-s/2) +'px');
+//				$(this).css('bottom', '-'+ (-s/2) +'px');
+				$(this).css('bottom', '-'+ (-s/3) +'px');
 //				$(this).css('bottom', '-'+ (-s*1.25) +'px');
 			})
 		}
