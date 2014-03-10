@@ -46,14 +46,14 @@ var App = {};
 
         mobileInitFn: function(){
             $( '.img-wrapper').eq(2).html(
-                '<img src="index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg" alt=""/>'
+                '<img src="index/img/iceland.jpg" alt=""/>'
             );
 
         },
 
         browserInitFn: function(){
             $( 'section').eq(2).css({
-                "background-image"        : "url('index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg')",
+                "background-image"        : "url('index/img/iceland.jpg')",
                 "background-position"     : "bottom right",
                 "background-attachment"   : "fixed"
             });
