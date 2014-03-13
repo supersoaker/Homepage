@@ -1,0 +1,158 @@
+// functions
+.addBg( @imgUrl, @properties : repeat scroll 0 0 rgba(0, 0, 0, 0) ){
+	background: url("../img/@{imgUrl}");
+}
+.transform ( @props ) {
+	-webkit-transform: @props;
+	   -moz-transform: @props;
+	    -ms-transform: @props;
+	     -o-transform: @props;
+	        transform: @props;
+}
+.transition ( @cssProp, @props: 2s linear ) {
+	-webkit-transition: @props;
+	   -moz-transition: @props;
+	    -ms-transition: @props;
+	     -o-transition: @props;
+	        transition: @props;
+}
+.transitionAll (){
+	-webkit-transition: all 0.5s linear 0s;
+	   -moz-transition: all 0.5s linear 0s;
+	    -ms-transition: all 0.5s linear 0s;
+	     -o-transition: all 0.5s linear 0s;
+	        transition: all 0.5s linear 0s;
+}
+// functions End
+
+
+
+
+body, html {
+//	height: 100%;
+//	width: 100%;
+	overflow: hidden;
+}
+
+#navi-wrapper
+{
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+//   z-index: 0;
+	position: fixed;
+	right: 0;
+	.addBg( 'pt.jpg' );
+}
+
+
+
+#on-content-navi {
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 150px;
+  .transitionAll();
+  z-index: 2;
+  //		.transform( translateZ(2));
+  #menu-button span {
+	font-size: 30px;
+	color: #FFFFFF;
+  }
+
+  #nav-icon-wrapper {
+	padding: 7px 8px;
+	border-color: #333333;
+	background-color: #333333;
+	border-radius: 4px;
+  }
+
+  	#menu-button span {
+	  font-size: 20px;
+	}
+  	#menu-button > span {
+	  background-color: rgba(204, 204, 204, 0.7);
+	}
+}
+
+
+#content-wrapper {
+	width: 100%;
+	overflow-y: scroll;
+	position: absolute;
+	.transitionAll();
+	z-index: 1;
+//    border-right: 1px solid black;
+//    -webkit-box-shadow: 0px 0px 100px -2px black;
+//    -moz-box-shadow:    0px 0px 100px -2px black;
+//    box-shadow:         0px 0px 100px -2px black;
+	section {
+	  overflow: hidden;
+	  width: 100%;
+	  position: relative;
+	  .img-wrapper {
+		img {
+		  bottom: 0;
+		  right: 0;
+		  position: absolute;
+		}
+
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	  }
+	  .context {
+		height: 30%;
+        width: 100%;
+		top: 60%;
+		position: absolute;
+//		background: white;
+
+		.next-section {
+		  text-align: center;
+		  height: 20%;
+		  font-size: 50px;
+		  :hover {
+			color: #555;
+		  }
+		}
+	  }
+	}
+}
+.text {
+  height: 80%;
+  margin: 0 auto;
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  opacity: 0.7;
+  padding: 20px;
+  h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width : 900px) {
+  .text {
+    width: auto;
+    margin: 0 20px;
+  }
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width : 1024px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
+@media only screen and (max-width : 640px) {
+
+}

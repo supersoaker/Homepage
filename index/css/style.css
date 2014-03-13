@@ -1,0 +1,29 @@
+#navi-wrapper {
+  z-index: 0;
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  right: 0;
+  background: url("../img/pt.jpg");
+}
+#content-wrapper {
+  position: relative;
+  overflow-y: scroll;
+  -webkit-transform: translateX(-200px);
+  -moz-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  -o-transform: translateX(-200px);
+  transform: translateX(-200px);
+  z-index: 1;
+}
+#content-wrapper section {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+#content-wrapper section img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
