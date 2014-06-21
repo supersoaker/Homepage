@@ -46,7 +46,7 @@ var App = {};
 
         mobileInitFn: function(){
             $( '.img-wrapper').eq(2).html(
-                '<img src="index/img/iceland.jpg" alt=""/>'
+                '<img src="http://supersoaker.github.io/Homepage/index/img/iceland.jpg" alt=""/>'
             );
 
         },
@@ -87,8 +87,9 @@ var App = {};
 		},
 
 		_onHeightChange : function() {
-
-            $("#content-wrapper").smoothWheel();
+            if( !App.mobileDevice ) {
+                $("#content-wrapper").smoothWheel();
+            }
 			$('section').css( 'height', window.innerHeight );
 			$( '#content-wrapper' ).css( 'height', window.innerHeight );
 //			$('section .context').css( 'height', this.getPercentageHeight(30) );
@@ -137,7 +138,8 @@ var App = {};
                         naviWidth = window.innerWidth - 150;
                         naviWidth = (naviWidth > 300) ? 300 : naviWidth;
                     }
-					$('#content-wrapper, #on-content-navi').css('transform', 'translateX(-'+ naviWidth +'px)');
+                    $('#navi-wrapper').css('width', naviWidth);
+                    $('#content-wrapper, #on-content-navi').css('transform', 'translateX(-'+ naviWidth +'px)');
 					fn = function(){
 						$('.close-navi').hide();
 						$('.open-navi').show();
@@ -148,7 +150,7 @@ var App = {};
 				window.setTimeout(function(){
 					fn();
 					this._naviAnimRunning = false;
-				}.bind(this), (this._naviAnimSeconds) * 1000);
+				}.bind(this), (this._naviAnimSeconds - 0.5) * 1000);
 			}
 		},
 
@@ -177,7 +179,7 @@ var App = {};
 //				$(this).css('bottom', '-'+ (-s/2) +'px');
 				$(this).css('bottom', '-'+ (-s/3) +'px');
 //				$(this).css('bottom', '-'+ (-s*1.25) +'px');
-			})
+			});
 		}
 	};
 
