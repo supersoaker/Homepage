@@ -7,13 +7,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <!--===== Styles    =====-->
-    <link rel="stylesheet" href="index/css/bootstrap.min.css" />
-    <link rel="stylesheet/less" type="text/css" href="index/css/style.less" />
 
+    <link rel="stylesheet" href="index/css/bootstrap.min.css" />
+    <style>
+        .panel {
+            padding-top: 1px;
+            padding-bottom: 1px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+    <link rel="stylesheet/less" type="text/css" href="index/css/style.less" />
+    <link rel="stylesheet" type="text/css" href="index/css/spinner.css" />
+    <style>.spinner { left: 92%; }</style>
 
 
     <!--===== Js Libs   =====-->
     <script type="text/javascript" src="index/libs/jquery.js"></script>
+    <script type="text/javascript" src="index/libs/hammer.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
     <script type="text/javascript" src="index/libs/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="index/libs/jquery.smoothwheel.js"></script>
     <script>
@@ -29,12 +40,12 @@
     </script><script type="text/javascript" src="index/libs/less.js"></script>
 
 
-
     <!--===== Scripts   =====-->
     <script type="text/javascript" src="index/js/App.js"></script>
     <script type="text/javascript" src="index/js/App/Util/Size.js"></script>
     <script type="text/javascript" src="index/js/App/Util/Navi.js"></script>
     <script type="text/javascript" src="index/js/App/Util/Scroll.js"></script>
+    <script type="text/javascript" src="index/js/menu.js"></script>
     <script type="text/javascript">
         $(function() {
             App.init();
@@ -45,8 +56,21 @@
 </head>
 <body>
 
+
+
     <div id="navi-wrapper">
         <nav>
+
+            <div class="spinner">
+                <span class="ball-1"></span>
+                <span class="ball-2"></span>
+                <span class="ball-3"></span>
+                <span class="ball-4"></span>
+                <span class="ball-5"></span>
+                <span class="ball-6"></span>
+                <span class="ball-7"></span>
+                <span class="ball-8"></span>
+            </div>
         </nav>
     </div>
 
@@ -63,10 +87,10 @@
     <div id="content-wrapper">
         <section>
 	        <div class="img-wrapper">
-                <img src="index/img/yosemite.jpg" alt=""/>
+                <img onmousedown="return false" src="index/img/yosemite.jpg" alt=""/>
 	        </div>
 	        <div class="context">
-		        <div class="text">
+		        <div id="asd" class="text">
                     <h1>Hi, willkommen auf Marlons Superseite :D !</h1>
                     <p></p>
 

@@ -9,12 +9,12 @@
 	     -o-transform: @props;
 	        transform: @props;
 }
-.transition ( @cssProp, @props: 2s linear ) {
-	-webkit-transition: @props;
-	   -moz-transition: @props;
-	    -ms-transition: @props;
-	     -o-transition: @props;
-	        transition: @props;
+.transition ( @cssProp, @props: 0.5s linear 0s ) {
+	-webkit-transition: @cssProp @props;
+	   -moz-transition: @cssProp @props;
+	    -ms-transition: @cssProp @props;
+	     -o-transition: @cssProp @props;
+	        transition: @cssProp @props;
 }
 .transitionAll (){
 	-webkit-transition: all 0.5s linear 0s;
@@ -81,7 +81,7 @@ body, html {
 	width: 100%;
 	overflow-y: scroll;
 	position: absolute;
-	.transitionAll();
+//	.transitionAll();
 	z-index: 1;
 //    border-right: 1px solid black;
 //    -webkit-box-shadow: 0px 0px 100px -2px black;
