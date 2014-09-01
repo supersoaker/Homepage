@@ -1,6 +1,12 @@
 var wrapper = {};
 var menu = {
 
+	maxDistance: 250,
+
+	init: function() {
+
+	},
+
 	_bindEvents: function( )  {
 		console.log(123)
 		this._hammertime = new Hammer( wrapper );
@@ -31,6 +37,11 @@ var menu = {
 //				event.gesture.preventDefault();
 //				console.log(event)
 				var deltaX = event.deltaX;
+
+				if( deltaX < (menu.maxDistance * -1) )
+					deltaX = (menu.maxDistance * -1);
+				if( deltaX > 0 )
+					deltaX = 0;
 				$(wrapper).css('transform', ' translateX(' + deltaX +'px)');
 //				var deltaDistance = this._isRightMenu ? -deltaX : deltaX;
 
@@ -90,7 +101,7 @@ var menu = {
 //
 //				break;
 		}
-	}
+	}.bind(this)
 }
 $(function() {
 	wrapper = document.getElementById('content-wrapper');
