@@ -1,133 +1,298 @@
-<!doctype html>
-<html lang="de_DE">
-<head>
-	<!--===== Meta      ======-->
-    <meta charset="UTF-8">
-    <title>marlons superseite!</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<!DOCTYPE HTML>
+<html>
+    <head>
 
-    <!--===== Styles    =====-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="index/css/bootstrap.min.css" />
-    <style>
-        .panel {
-            padding-top: 1px;
-            padding-bottom: 1px;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-        }
-    </style>
-    <link rel="stylesheet/less" type="text/css" href="index/css/style.less" />
-    <link rel="stylesheet" type="text/css" href="index/css/spinner.css" />
-    <style>.spinner { left: 92%; }</style>
+        <title>Marlon Rüscher</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet/less" type="text/css" href="css/newstyle.less" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+        <!--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>-->
+        <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>-->
+        <!--https://github.com/rstacruz/nprogress-->
+        <link rel="stylesheet" href="//rawgit.com/rstacruz/nprogress/master/nprogress.css"/>
 
 
-    <!--===== Js Libs   =====-->
-    <script type="text/javascript" src="index/libs/jquery.js"></script>
-    <script type="text/javascript" src="index/libs/hammer.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
-    <script type="text/javascript" src="index/libs/jquery.scrollTo.js"></script>
-    <script type="text/javascript" src="index/libs/jquery.smoothwheel.js"></script>
-    <script>
-        less = {
-            env: "development",
-            async: false,
-            fileAsync: false,
-            poll: 1000,
-            functions: {},
-            dumpLineNumbers: "comments",
-            relativeUrls: false
-        };
-    </script><script type="text/javascript" src="index/libs/less.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/own.js"></script>
+        <script src="js/with-jquery.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+            ga('create', 'UA-57879629-1', 'auto');
+            ga('send', 'pageview');
 
-    <!--===== Scripts   =====-->
-    <script type="text/javascript" src="index/js/App.js"></script>
-    <script type="text/javascript" src="index/js/App/Util/Size.js"></script>
-    <script type="text/javascript" src="index/js/App/Util/Navi.js"></script>
-    <script type="text/javascript" src="index/js/App/Util/Scroll.js"></script>
-    <script type="text/javascript" src="index/js/menu.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            App.init();
-        });
-    </script>
+        </script>
+        <!--https://github.com/rstacruz/nprogress-->
+        <script src="//rawgit.com/rstacruz/nprogress/master/nprogress.js"></script>
 
+    </head>
+    <body>
 
-</head>
-<body>
-
-
-
-    <div id="navi-wrapper">
         <nav>
-
-            <div class="spinner">
-                <span class="ball-1"></span>
-                <span class="ball-2"></span>
-                <span class="ball-3"></span>
-                <span class="ball-4"></span>
-                <span class="ball-5"></span>
-                <span class="ball-6"></span>
-                <span class="ball-7"></span>
-                <span class="ball-8"></span>
-            </div>
+            <a href="#Intro" class="scroll">Home<i class="fa fa-circle-o"></i></a>
+            <a href="#Über mich" class="scroll">Über mich<i class="fa fa-circle-o"></i></a>
+            <a href="#Login Manager" class="scroll">Login Manager<i class="fa fa-circle-o"></i></a>
+            <a href="#herbstzeit-grafik.de" class="scroll">herbstzeit-grafik.de<i class="fa fa-circle-o"></i></a>
+            <a href="#Geisterfahrer" class="scroll">Geisterfahrer<i class="fa fa-circle-o"></i></a>
+            <a href="#Kontakt" class="scroll">Kontakt<i class="fa fa-circle-o"></i></a>
         </nav>
-    </div>
 
-    <div id="on-content-navi">
-	    <div id="menu-button">
-		   <span class="btn btn-default btn-lg">
-			   Menü
-			   <span class="open-navi glyphicon glyphicon-chevron-right"></span>
-			   <span class="close-navi glyphicon glyphicon-chevron-left"></span>
-		   </span>
-	    </div>
-    </div>
-
-    <div id="content-wrapper">
-        <section>
-	        <div class="img-wrapper">
-                <img onmousedown="return false" src="index/img/yosemite.jpg" alt=""/>
-	        </div>
-	        <div class="context">
-		        <div id="asd" class="text">
-                    <h1>Hi, willkommen auf Marlon's Superseite :D !</h1>
-                    <p></p>
-
-		        </div>
-		        <!--<div class="next-section">-->
-			        <!--<span class="glyphicon glyphicon-circle-arrow-down"></span>-->
-		        <!--</div>-->
-	        </div>
+        <!--- Intro Starts Here -->
+        <section id="home" class="header" data-section-name="Intro" data-ratio="1920x1080" style="background-image:url('images/bg.jpg');">
+            <div class="container">
+                <div class="logo">
+                     <!--<a href="index.html"><img src="images/logo.png" alt=""></a>-->
+                </div>
+                <div class="menu">
+                    <ul class="menu-top">
+                        <li>
+                            <div class="main">
+                                <!--<button id="showRight" class="navig" style="background-image: url(images/nav.png)"></button>-->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="headline header-bottom">
+                    <p>Building your</p>
+                    <h1>WEBSITE</h1>
+                    <a class="link-button" href="#login-manager-project">Letzte Projekte</a>
+                    <p class="reward">- Marlon Rüscher -</p>
+                </div>
+            </div>
+            <div class="arrow">
+                <a href="#Über mich">
+                    <i class="fa fa-angle-double-down"></i>
+                </a>
+            </div>
         </section>
+        <!--- Intro Ends Here --->
 
-        <section>
-	        <div class="img-wrapper">
-                <img src="index/img/attom.jpg" alt=""/>
-	        </div>
-	        <div class="context">
-				<div class="text">
-
-
-				</div>
-		        <!--<div class="next-section">-->
-			        <!--<span class="glyphicon glyphicon-circle-arrow-down"></span>-->
-		        <!--</div>-->
-	        </div>
+        <!-- About Starts Here --->
+        <section id="about" data-section-name="Über mich">
+            <div class="container">
+                <div class="row aboutus-row">
+                    <div class="col-md-4 aboutus-row-column">
+                        <i class="fa fa-desktop"></i>
+                        <h3>Web Entwicklung</h3>
+                        <span class="blue-line"></span>
+                        <p>Seit gut 2,5 Jahre setze ich in der ISA GmbH verschiedene Webprojekte um, darunter auch für große Kunden wie KiK oder TEDi.</p>
+                    </div>
+                    <div class="col-md-4 aboutus-row-column">
+                        <i class="fa fa-mobile"></i>
+                        <h3>App Entwicklung</h3>
+                        <span class="blue-line"></span>
+                        <p>Seit Kurzem kann ich Projekte für Mobile-Apps umsetzen. Mögliche Betriebssysteme sind unteranderem iOS, Android und Windows.</p>
+                    </div>
+                    <div class="col-md-4 aboutus-row-column">
+                        <i class="fa fa-paint-brush"></i>
+                        <h3>Web Design</h3>
+                        <span class="blue-line"></span>
+                        <p>Während der Mitarbeit an vielen Webprojekten, habe ich mir das Anwenden verschiedener Designtechniken aneignen können.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
         </section>
+        <!-- About Ends Here --->
 
-        <section>
-	        <div class="img-wrapper">
-		        <!--<img style="position: fixed" src="index/images/bg_samples/iceland_landscape-wallpaper-2560x1600.jpg" alt=""/>-->
-	        </div>
-	        <div class="context">
-		        <div class="text">
+        <!-- login-manager-project start here -->
+        <section id="login-manager-project" class="projects" data-section-name="Login Manager">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="image-wrapper">
+                            <img src="images/projekt1-preview.png" width="260px" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Introducing the <em>Login Manager</em> app</h3>
+                        <p>
+                            Die Login Manager App dient dazu, all seine <em>Logindaten</em> auf
+                            seinem Handy zu speichern und zu <em>verwalten</em>.
+                            Desweiteren bietet diese App einen <em>Passwortgenerator</em>,
+                            der, unter Verwendung diverser Kriterien, Passwörter zu
+                            Logins erstellen kann. <br/>
+                            <!--<br/>-->
+                            Um die <em>Sicherheit</em> dieser Logindaten zu gewährleisten,
+                            werden alle Daten mit einem Wort oder einem Satz
+                            <em>verschlüsselt</em>. <br/>
+                            <!--<br/>-->
+
+                            <hr/>
+
+                            <i class="fa fa-check"></i> Logins hinzufügen <br/>
+                            <i class="fa fa-check"></i> Logins anpassen <br/>
+                            <i class="fa fa-check"></i> Logins löschen <br/>
+
+                            <i class="fa fa-check"></i> Verschlüsselt <br/>
+
+                            <i class="fa fa-check"></i> Passwortgenerator <br/>
+
+                            <hr/>
+
+                            Diese App ist zurzeit noch <em>nicht komplett fertiggestellt</em>,
+                            das hat zur Folge, dass diese noch nicht in den jeweiligen App
+                            Stores verfügbar ist. Stattdessen ist aber bereits eine
+                            <em>Testversion</em> vorhanden. <br/>
 
 
-		        </div>
-	        </div>
+                            <!--
+                            Die Login Manager App dient dazu, all seine Logindaten auf
+                            seinem Handy zu speichern und zu verwalten. Mithilfe dieser
+                            App kann der Benutzer <em>alle Logindaten</em> von
+                            verschiedenen Diensten <em>zentral verwalten</em>. Man kann
+                            neue Logins hinzufügen, bestehende verändern oder löschen.
+                            Desweiteren bietet diese App einen <em>Passwortgenerator</em>,
+                            der, unter Verwendung diverser Kriterien, Passwörter zu
+                            Logins erstellen kann. <br/>
+                            <br/>
+                            Um die <em>Sicherheit</em> dieser Logindaten zu gewährleisten,
+                            werden alle Daten mit einem Wort oder einem Satz
+                            <em>verschlüsselt</em>. Dieser Satz bzw. dieses Wort wird bei
+                            erstmaliger Benutzung der App von dem Anwender selbst
+                            festgelegt. Anschließend wird bei jeder weiteren Benutzung
+                            der App diese Lösung abgefragt. <br/>
+                            <br/>
+                            Diese App ist zurzeit noch <em>nicht komplett fertiggestellt</em>,
+                            das hat zur Folge, dass diese noch nicht in den jeweiligen App
+                            Stores verfügbar ist. Stattdessen ist aber bereits eine
+                            <em>Testversion</em> vorhanden. <br/>
+                            <br/>
+                            -->
+                        </p>
+                        <a class="link-button" href="Login-Manager" target="_blank">
+                            Zur Testversion
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
-    </div>
+        <!-- login-manager-project ends here -->
 
-</body>
+        <!-- herbstzeit-project start here -->
+        <section id="herbstzeit-project" class="projects" data-section-name="herbstzeit-grafik.de">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/herbstzeit-website.png" width="300px" alt=""/>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Die Webseite <em>herbstzeit-grafik.de</em></h3>
+                        <p>
+                            Diese Webseite befindet sich momentan im <em>Umbau</em>.
+                            Erreichbar unter der URL <a href="http://www.herbstzeit-grafik.de">
+                            www.herbstzeit-grafik.de</a>. Momentan wird ein Redesign der
+                            kompletten Webseite vorgenommen. Ein vorheriger Stand kann über
+                            den folgenden Link erreicht werden. <br/>
+                            <br/>
+                        </p>
+                        <a class="link-button" href="Login-Manager" target="_blank">
+                            Zur vorherigen Webseite
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- herbstzeit-project ends here -->
+
+        <!-- geisterfahrer-project start here
+        <section id="geisterfahrer-project" class="projects" data-section-name="Geisterfahrer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="image-wrapper">
+                            <img width="200px" src="images/geisterfahrer1.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Das <em>Geisterfahrer</em> Spiel</h3>
+                        <p>
+                            Dieses Spiel ist eine einfache Applikation, die ausschließlich
+                            im Browser funktioniert. Sie ist sowohl mit dem <em>PC</em>
+                            als auch mit dem <em>Handy</em> spielbar. Bei dem Browser wird
+                            mit den Pfeiltasten navigiert und beim Handy per Swipe mit dem
+                            Finger. <br/>
+                            Bei dem Spiel gilt es den anderen <em>entgegenkommenden Autos
+                            auszuweichen</em>, um somit einen <em>neuen Highscore</em> zu
+                            erreichen. <br/>
+                            Über den folgenden Link kann das Spiel ausprobiert werden. <br/>
+                            <br/>
+                        </p>
+                        <a class="link-button" href="Login-Manager" target="_blank">
+                            Zum Spiel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!-- geisterfahrer-project ends here -->
+
+            <hr/>
+            <hr/>
+
+        <!-- projects start here -->
+        <section id="projects" class="projects" data-section-name="Sonstige Projekte">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="link-button" href="http://github.com/supersoaker" target="_blank">
+                            Alle Projekte
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- projects ends here -->
+
+        <!-- contact start here -->
+        <section id="contact" class="projects" data-section-name="Kontakt" style="background-image: url('images/contact.png')">
+            <form id="contact-form" action="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>
+                                Kontaktieren Sie mich:
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input id="input-email" type="email" placeholder="Email"/> <br/><br/>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="input-subject" type="text" placeholder="Betreff"/> <br/><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea id="input-message" cols="30" placeholder="Nachricht" rows="10"></textarea>
+                            <br/><br/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button id="contact-submit" type="submit" class="link-button">
+                                Absenden &nbsp; <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- contact ends here -->
+
+    </body>
 </html>
+
