@@ -1,4 +1,8 @@
 {
-    "name": "homepage",
-    "version": "0.1.0"
+  "name": "homepage",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.11.0",
+    "grunt-contrib-less": "^1.0.0"
+  }
 }

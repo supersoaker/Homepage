@@ -1,10 +1,12 @@
 .blue-line {
+  color: #fff;
 //  background: none repeat scroll 0 0 rgb(67, 101, 133);
   background: none repeat scroll 0 0 rgb(90, 126, 141);
   display: block;
   height: 1px;
   margin: 0 auto;
   width: 28%;
+
 }
 @color1: rgb(195, 218, 184);
 @color2: rgb(136, 177, 168);
@@ -29,6 +31,7 @@ section {
   -o-background-size: contain;
   -ms-background-size: contain;
   -moz-background-size: contain;
+  background-color: @color2;
   max-height: 800px;
   padding: 1em 0;
   position: relative;
@@ -52,10 +55,11 @@ section {
           font-weight:700;
         }
       }
+
       button.navig{
         width:24px;
         height:24px;
-        background:url(images/nav.png);
+        background:url('images/nav.png');
         display: block;
         outline: none;
         border:0;
@@ -76,11 +80,11 @@ section {
     transform: translate(-50%,-50%);
     text-align: center;
 //    padding: 5em 0 0;
-    p {
+    p, em {
       font-style:italic;
       font-weight:400;
       color:rgba(255, 255, 255, 0.7);
-      font-size: 2.5em;
+      font-size: 35px;
       font-family:Times;
       margin:0px;
       padding:0px;

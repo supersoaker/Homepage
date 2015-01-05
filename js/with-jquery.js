@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
 //    });
 
 
-
+    // contact form
     $('#contact-submit').on('click', function() {
         var email = $('#input-email').val(),
             subject = $('#input-subject').val() || "",
@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
                     ],
                     'autotext': 'true',
                     'subject': 'sm.de - ' + subject,
-                    'html': message
+                    'text': message
                 }
             }
         }).done(function(response) {
@@ -95,6 +95,13 @@ jQuery(document).ready(function($) {
 
         return false;
 
+    });
+
+    // contact form background image
+    var imgSrc = "http://res.cloudinary.com/datqsjpac/image/upload/v1420338644/contact_nlho7g.png";
+    $('<img/>').attr('src', imgSrc).load(function() {
+        $(this).remove(); // prevent memory leaks as @benweet suggested
+        $('#contact').css('background-image', 'url('+ imgSrc +')');
     });
 });
 

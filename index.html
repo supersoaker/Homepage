@@ -8,32 +8,13 @@
 
         <title>Marlon Rüscher</title>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet/less" type="text/css" href="css/newstyle.less" />
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-        <!--<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>-->
-        <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>-->
-        <!--https://github.com/rstacruz/nprogress-->
-        <link rel="stylesheet" href="//rawgit.com/rstacruz/nprogress/master/nprogress.css"/>
-
-
-        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/own.js"></script>
-        <script src="js/with-jquery.js"></script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-57879629-1', 'auto');
-            ga('send', 'pageview');
-
-        </script>
-        <!--https://github.com/rstacruz/nprogress-->
-        <script src="//rawgit.com/rstacruz/nprogress/master/nprogress.js"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+        <!--<link rel="stylesheet/less" type="text/css" href="css/newstyle.less" />-->
+        <style>
+            body>nav{display:none;}
+        </style>
 
     </head>
     <body>
@@ -47,8 +28,10 @@
             <a href="#Kontakt" class="scroll">Kontakt<i class="fa fa-circle-o"></i></a>
         </nav>
 
+
         <!--- Intro Starts Here -->
-        <section id="home" class="header" data-section-name="Intro" data-ratio="1920x1080" style="background-image:url('images/bg.jpg');">
+        <section id="home" class="header" data-section-name="Intro" data-ratio="1920x1080"
+                 style="background-image:url('http://res.cloudinary.com/datqsjpac/image/upload/v1420338637/bg_bmt9in.jpg');">
             <div class="container">
                 <div class="logo">
                      <!--<a href="index.html"><img src="images/logo.png" alt=""></a>-->
@@ -64,8 +47,10 @@
                 </div>
                 <div class="clearfix"></div>
                 <div class="headline header-bottom">
-                    <p>Building your</p>
-                    <h1>WEBSITE</h1>
+                    <h1>
+                        <em class="preTag">Building your</em>
+                        WEBSITE
+                    </h1>
                     <a class="link-button" href="#login-manager-project">Letzte Projekte</a>
                     <p class="reward">- Marlon Rüscher -</p>
                 </div>
@@ -77,6 +62,8 @@
             </div>
         </section>
         <!--- Intro Ends Here --->
+
+        <script src="js/own.js"></script>
 
         <!-- About Starts Here --->
         <section id="about" data-section-name="Über mich">
@@ -112,7 +99,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="image-wrapper">
-                            <img src="images/projekt1-preview.png" width="260px" alt=""/>
+                            <img src="http://res.cloudinary.com/datqsjpac/image/upload/w_260/v1420338631/projekt1-preview_oga7oh.png" width="260px" alt=""/>
+                            <!--<img src="http://res.cloudinary.com/datqsjpac/image/upload/v1420338631/projekt1-preview_oga7oh.png" width="260px" alt=""/>-->
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -185,7 +173,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/herbstzeit-website.png" width="300px" alt=""/>
+                        <img src="http://res.cloudinary.com/datqsjpac/image/upload/w_300/v1420338659/herbstzeit-website_cgjgck.png" width="300px" alt=""/>
+                        <!--<img src="http://res.cloudinary.com/datqsjpac/image/upload/v1420338659/herbstzeit-website_cgjgck.png" width="300px" alt=""/>-->
                     </div>
                     <div class="col-md-8">
                         <h3>Die Webseite <em>herbstzeit-grafik.de</em></h3>
@@ -257,7 +246,8 @@
         <!-- projects ends here -->
 
         <!-- contact start here -->
-        <section id="contact" class="projects" data-section-name="Kontakt" style="background-image: url('images/contact.png')">
+        <section id="contact" class="projects" data-section-name="Kontakt">
+            <!--background image is set by jquery-->
             <form id="contact-form" action="">
                 <div class="container">
                     <div class="row">
@@ -292,6 +282,25 @@
             </form>
         </section>
         <!-- contact ends here -->
+
+
+
+        <!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>-->
+        <script async="" src="js/main.min.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-57879629-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+
+        <!--https://github.com/rstacruz/nprogress-->
+        <link rel="stylesheet" href="//rawgit.com/rstacruz/nprogress/master/nprogress.css"/>
+        <script async="" src="//rawgit.com/rstacruz/nprogress/master/nprogress.js"></script>
 
     </body>
 </html>
