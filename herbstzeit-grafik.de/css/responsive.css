@@ -1,0 +1,46 @@
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+	#content-center
+	{
+		width: 40%;
+	}
+	#content
+	{
+		width: 100%;
+	}
+	#content-left, #content-right
+	{
+		width: 30%;
+	}
+}
+/* for 600px or less (problem with projects get over content) */
+@media screen and (max-width: 600px) {
+	#content-center
+	{
+		width: 50%;
+	}
+	#content-left, #content-right
+	{
+		width: 25%;
+	}
+
+}
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	#content-center
+	{
+		width: 100%;
+	}
+	#content-left, #content-right
+	{
+		display: none;
+	}
+}
+/* for 360px or less */
+@media screen and (max-width: 360px) {
+	#content
+	{
+		width: 100%;
+		min-width: 230px;
+	}
+}

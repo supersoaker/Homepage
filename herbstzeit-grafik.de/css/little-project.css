@@ -1,0 +1,58 @@
+/* Little Projects ************/
+.small-picture
+{
+	background-color: #F8F8F8;
+	width: 152.5px;
+	height: 150px;
+	padding: 9px;
+	text-align: center;
+	position: relative;
+	float: right;
+	box-shadow: 5px 5px 5px grey;
+	border: 2px solid lightgrey;
+	z-index: 2;
+	margin-top: -5px;
+	margin-right: -15px;
+	cursor: pointer;
+}
+	.project-span
+	{
+		margin: 2.5px 0 0 0;
+	}
+	.project-span span
+	{
+		font-size: 14px;
+	}
+.project-img
+{
+	height: 130px;
+	width: 150px;
+	border: 1px solid lightgrey;
+}
+.project-img img
+{
+	height: 130px;
+	width: 150px;
+}
+body .below
+{
+	z-index: 1;
+	margin: -15px 0 0;
+}
+#project1
+{
+	margin-top: 0px;
+}
+
+
+.left
+{
+	margin-right: -15px;
+}
+
+.right
+{
+	margin-right: 0;
+	margin-left: -15px;
+	float: left;
+}
