@@ -1,0 +1,80 @@
+<ons-page ng-controller="NewLoginCtrl">
+    <ons-toolbar>
+        <div class="left">
+        	<ons-back-button>Zurück</ons-back-button>
+        </div>
+        <div class="center">{{ pageTitle }}</div>
+        <div class="right">
+        	<ons-toolbar-button ng-show="isUpdate"  ng-click="deleteLogin()">
+        		<ons-icon icon="trash-o"></ons-icon>
+    		</ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+    
+    <style>
+    	#new-login-form-wrapper {
+    		text-align: left;
+		}
+		#new-login-form-wrapper label {
+			line-height: 30px;
+		}
+		#new-login-form-wrapper .text-input,
+		#new-login-form-wrapper textarea {
+			width : 100%;
+			padding-top : 17px;
+		}
+    	#new-login-form-wrapper textarea {
+    		height: 150px;
+    	}
+    	#new-login-form-wrapper #passwordInput {
+    		width: 73%;
+    	}
+    	#generate-password {
+    		line-height : 0;
+			margin: 2px 2px 2px 0;
+			float: right;
+    	}
+     	#new-login-form-wrapper .finished-button  {
+    		margin: 0 0 0 15px;
+    	}
+    </style>
+    
+    <div id="new-login-form-wrapper">
+    
+	    <ons-list style="margin: 1px 0 20px;">
+			<ons-list-item>
+			 	<input ng-model="title" id="loginTitle" type="text" class="text-input text-input--transparent " placeholder="Titel*">
+			</ons-list-item>
+			
+			 <ons-list-item>
+			 	<input ng-model="username" id="username" type="text" class="text-input text-input--transparent" placeholder="Username">
+			 </ons-list-item>
+			
+			 <ons-list-item>
+			 	<input ng-model="email" id="email" type="email" class="text-input text-input--transparent" placeholder="E-Mail">
+			 </ons-list-item>
+			
+			 <ons-list-item>
+			 	<input id="passwordInput" ng-model="password" id="login-password" type="text" class="text-input text-input--transparent" placeholder="Passwort*">    
+			 	<ons-button id="generate-password" ng-click="generatePasswort()">
+					<i class="fa fa-key fa-lg" style="color: #FFF"></i>
+					gen
+				</ons-button>	
+			 </ons-list-item>
+	        
+	        <ons-list-item>
+	        	<textarea ng-model="description" id="description" class="text-input--transparent" placeholder="Beschreibung" rows="3"></textarea>
+        	</ons-list-item>
+        </ons-list>
+        
+        <ons-button ng-hide="isUpdate" class="finished-button" ng-click="save()">
+    	    <i class="fa fa-check fa-lg" style="color: #FFF"></i> 
+        	Speichern
+        </ons-button>
+        
+        <ons-button ng-show="isUpdate" class="finished-button" ng-click="update()">
+    	    <i class="fa fa-check fa-lg" style="color: #FFF"></i> 
+        	Ändern
+        </ons-button>
+    </div>
+</ons-page>

@@ -1,0 +1,68 @@
+<ons-navigator var="overviewNavigator" id="OverviewCtrl" ng-controller="OverviewCtrl" >
+   <ons-page>
+        <ons-toolbar>
+            <div class="left">
+                <ons-toolbar-button ng-click="ons.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+            </div>
+            <div class="center">Übersicht</div>
+            <div class="right">
+                <ons-toolbar-button>
+                	<ons-icon ng-click="addNewLogin()" icon="plus"></ons-icon>
+            	</ons-toolbar-button>
+            </div>
+        </ons-toolbar>
+
+        
+        
+		<style>
+			#login-list {
+				list-style : none;
+				padding: 0;
+				margin: 0;
+				border-top: 1px solid #ddd;
+			}
+			#login-list li {
+				overflow: hidden;
+				border-bottom: 1px solid #ddd;
+				height : 50px;
+				padding: 15px 10px 0;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				box-sizing: border-box;
+			}
+			#main-search {
+				margin: 8px auto 7px;
+				width: 95%;
+			}
+			#empty-overview-text b {
+				color: #1284ff;
+				text-decoration : underline;
+				font-weight: normal;
+				cursor: pointer;
+			}
+				
+			#login-list .list__item {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				padding: 0 30px 0 15px;
+				text-align: left;
+			}
+		</style>
+        <div style="text-align: center">
+        <!--	<input id="main-search" type="search" ng-model="search" class="search-input" placeholder="Suche"> -->
+            <ul ng-show="loginsLength" id="login-list">
+            <ons-list-item modifier="chevron" ng-repeat="login in logins | filter:titleFilter() | orderBy:'login.title'" ng-click="showDetail( login.id )">
+	            <!-- <li ng-repeat="login in logins | filter:search | orderBy:'login.title'" ng-click="showDetail( login.id )"> -->
+	            	{{ login.title }}
+		        <!-- </li> -->
+            </ons-list-item>
+            </ul>
+            <div id="empty-overview-text" ng-hide="loginsLength">            
+            	<p>
+            		Sie haben noch keine Login-Daten hinzugefügt. <b ng-click="addNewLogin()">Fügen Sie welche hinzu</b>
+            	</p> 
+            </div>
+            
+        </div>
+    </ons-page>
+</ons-navigator>

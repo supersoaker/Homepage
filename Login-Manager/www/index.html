@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="app/app.js" ></script>
+    <script src="app/lib/crypto.js" ></script>
+
+    <script src="app/controllers/DetailCtrl.js" ></script>
+    <script src="app/controllers/GeneratorConfigCtrl.js" ></script>
+    <script src="app/controllers/LoginMaskCtrl.js" ></script>
+    <script src="app/controllers/NewLoginCtrl.js" ></script>
+    <script src="app/controllers/OverviewCtrl.js" ></script>
+
+    <script src="app/filters/decrpyt.js" ></script>
+
+    <script src="app/services/Cryptic.js" ></script>
+    <script src="app/services/Login.js" ></script>
+    <script src="app/services/Password.js" ></script>
+
+</head>
+<body>
+    <div id="wrapper"></div>
+
+    <template id="welcome-template">
+        <div ng-app="welcome-app" id="welcome-panel" ng-controller="LoginMaskCtrl">
+            <h1>Login Manager</h1>
+
+            <div ng-show="pwIsSet">
+                <label for="passwordInput">
+                    Ihr Passwort oder Passwortsatz, um Ihre gespeicherten Logindaten zu entschlüsseln:
+                </label>
+                <textarea ng-model="password" id="passwordInput" class="textarea"></textarea>
+                <button class="button" ng-click="checkPassword()">
+                    Anmelden
+                </button>
+            </div>
+
+            <div ng-hide="pwIsSet">
+                <label for="newPasswordInput">
+                    Geben Sie hier entweder ein Wort oder Satz ein, um Ihre Passwörter zu verschlüsseln.
+                    <p class="blue">Vergessen Sie dieses Wort bzw. diesen Satz auf gar keinen Fall, denn man kann Ihre Logindaten ohne Ihr Lösungswort oder -satz nicht entschlüsseln. </p>
+                </label>
+                <textarea id="newPasswordInput" ng-model="password" class="textarea"></textarea>
+                <button ng-click="showApplication()" class="button">
+                    Speichern
+                </button>
+            </div>
+        </div>
+    </template>
+
+
+    <template id="application-template">
+        <ons-sliding-menu
+                var="app.slidingMenu"
+                menu-page="views/menu.html"
+                main-page="views/overview.html"
+                side="left"
+                type="overlay"
+                max-slide-distance="250px"
+        ></ons-sliding-menu>
+    </template>
+</body>
+</html>

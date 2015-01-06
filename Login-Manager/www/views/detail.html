@@ -1,0 +1,48 @@
+   <ons-page ng-controller="DetailCtrl">
+        <ons-toolbar>
+            <div class="left">
+            	<ons-back-button>Zurück</ons-back-button>
+            </div>
+            <div class="center">{{ login.title }}</div>
+            <div class="right">
+            	<ons-toolbar-button ng-click="editLogin()">
+            		<ons-icon icon="pencil"></ons-icon>
+        		</ons-toolbar-button>
+            </div>
+        </ons-toolbar>
+        
+        
+        
+        <div style="text-align: center">
+            
+            
+			<ons-list>
+				<ons-list-header>Titel</ons-list-header>
+				<ons-list-item >
+					{{ login.title }}
+				</ons-list-item>
+				<ons-list-header>Username</ons-list-header>
+				<ons-list-item>
+					{{ login.username | decrypt}}
+				</ons-list-item>
+				<ons-list-header>E-Mail</ons-list-header>
+				<ons-list-item>
+					{{ login.email | decrypt}}
+				</ons-list-item>
+				<ons-list-header>Passwort</ons-list-header>
+				<ons-list-item>
+					{{ login.password | decrypt}}
+				</ons-list-item>
+				<ons-list-header>Beschreibung</ons-list-header>
+				<ons-list-item>
+					{{ login.description | decrypt}}
+				</ons-list-item>
+			</ons-list>
+			
+			
+            <ons-button style="display: none;" >
+            </ons-button>
+            
+            
+        </div>
+    </ons-page>

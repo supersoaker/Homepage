@@ -1,0 +1,42 @@
+<ons-page style="background-color: white">
+
+    <ons-list>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('views/overview.html', {closeMenu: true})">
+            <i class="fa fa-home fa-lg" style="color: #666"></i>
+            &nbsp; Übersicht
+        </ons-list-item>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('views/settings/generator.html', {closeMenu: true})">
+            <i class="fa fa-key fa-lg" style="color: #666"></i>
+            &nbsp; Passwort-Generator
+        </ons-list-item>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('views/settings/session.html', {closeMenu: true})">
+            <i class="fa fa-clock-o fa-lg" style="color: #666"></i>
+            &nbsp; Sitzungsablauf
+        </ons-list-item>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('views/settings/import.html', {closeMenu: true})">
+            <i class="fa fa-download fa-lg" style="color: #666"></i>
+            &nbsp; Logins importieren
+        </ons-list-item>
+
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="app.slidingMenu.setMainPage('views/settings/export.html', {closeMenu: true})">
+            <i class="fa fa-upload fa-lg" style="color: #666"></i>
+            &nbsp; Logins exportieren
+        </ons-list-item>
+
+    </ons-list>
+
+</ons-page>

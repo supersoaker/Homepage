@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Manager</title>
+    <link rel="shortcut icon" href="www/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="www/assets/images/favicon.ico" type="image/x-icon">
+
+    <style>
+        /* latin */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+        div {
+            width: 250px;
+            float: left;
+            color: rgb(51, 51, 51);
+            font-family: "Open Sans",sans-serif;
+        }
+        body {
+            /*padding-top: 80px;*/
+        }
+        em {
+            font-style: normal;
+            color: #4d6880;
+        }
+        #left {
+            margin-left: 10%;
+            height: 670px;
+            width: 320px;
+            margin-top: 40px;
+            background-image: url(docs/iphone.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        @media(max-width: 750px) {
+            #left {
+                margin-left:0;
+            }
+        }
+
+        #right {
+            margin-left: 5%;
+            width: 360px;
+        }
+        iframe {
+            /*max-width: 125%;*/
+            margin-top: 97px;
+            margin-left: 26px;
+            width: 335px;
+            height: 590px;
+            border: solid 1px #000;
+            /*-moz-transform: scale(0.63);*/
+            /*-webkit-transform: scale(0.63);*/
+            /*-o-transform: scale(0.63);*/
+            /*-ms-transform: scale(0.63);*/
+            /*transform: scale(0.63);*/
+            -moz-transform: scale(0.80);
+            -webkit-transform: scale(0.80);
+            -o-transform: scale(0.80);
+            -ms-transform: scale(0.80);
+            transform: scale(0.80);
+            -moz-transform-origin: top left;
+            -webkit-transform-origin: top left;
+            -o-transform-origin: top left;
+            -ms-transform-origin: top left;
+            transform-origin: top left;
+        }
+        @media(max-width: 830px) {
+            #left{
+                margin-left: 0;
+            }
+        }
+    </style>
+    <script>
+        if( window.innerWidth < 730 ){
+            location.href += 'www/';
+        }
+    </script>
+</head>
+<body>
+
+    <div id="left">
+        <iframe src="www/index.html" width="333" height="586" ></iframe>
+    </div>
+
+    <div id="right">
+        <h1>The <em>Login Manager</em> app</h1>
+        <h3>
+            Einfach die Applikation links im Handy ausprobieren !
+        </h3>
+        <p>
+            Die Login Manager App dient dazu, all seine Logindaten auf
+            seinem Handy zu speichern und zu verwalten. Mithilfe dieser
+            App kann der Benutzer <em>alle Logindaten</em> von
+            verschiedenen Diensten <em>zentral verwalten</em>. Man kann
+            neue Logins hinzufügen, bestehende verändern oder löschen.
+            Desweiteren bietet diese App einen <em>Passwortgenerator</em>,
+            der, unter Verwendung diverser Kriterien, Passwörter zu
+            Logins erstellen kann. <br/>
+            <br/>
+            Um die <em>Sicherheit</em> dieser Logindaten zu gewährleisten,
+            werden alle Daten mit einem Wort oder einem Satz
+            <em>verschlüsselt</em>. Dieser Satz bzw. dieses Wort wird bei
+            erstmaliger Benutzung der App von dem Anwender selbst
+            festgelegt. Anschließend wird bei jeder weiteren Benutzung
+            der App diese Lösung abgefragt. <br/>
+            <br/>
+            Diese App ist zurzeit noch <em>nicht komplett fertiggestellt</em>,
+            das hat zur Folge, dass diese noch nicht in den jeweiligen App
+            Stores verfügbar ist. Stattdessen ist aber bereits die
+            nebenstehende <em>Testversion</em> vorhanden. <br/>
+        </p>
+
+    </div>
+</body>
+</html>

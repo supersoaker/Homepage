@@ -1,0 +1,55 @@
+<ons-page ng-controller="GeneratorConfigCtrl" id="GeneratorConfigCtrl">
+
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center">Pw Generator</div>
+    </ons-toolbar>
+
+    <div style="text-align: left">
+    
+    	<ons-list style="margin: 1px 0 20px;">
+    		
+    		<ons-list-item>
+    			<span style="color: #666">Passwortlänge: </span>
+				<input style="width: 150px; padding-top: 15px; font-size: 17px; padding-left: 5px;" ng-model="length" type="number" class="text-input text-input--transparent " min="3" max="30" ng-model="length" placeholder="">
+	        </ons-list-item>
+	        
+    		<ons-list-item>
+				<span style="color: #666">Einfach zu merken </span>
+				<ons-switch var="PasswordConfig.inputs.memorable" ng-click="setPropInCtrl('memorable', PasswordConfig.inputs.memorable)" modifier="list-item"></ons-switch>
+	        </ons-list-item>
+    	
+    		<ons-list-item ng-hide="memorable">
+				<span style="color: #666">Sonderzeichen ( !@#_ )</span>
+				<ons-switch var="PasswordConfig.inputs.specifics" ng-click="setPropInCtrl('specifics', PasswordConfig.inputs.specifics)" ng-click="change" modifier="list-item" ></ons-switch>
+	        </ons-list-item>
+    	
+    		<ons-list-item ng-hide="memorable">
+				<span style="color: #666">Nummern ( 0-9 )</span>
+				<ons-switch var="PasswordConfig.inputs.numbers" ng-click="setPropInCtrl('numbers', PasswordConfig.inputs.numbers)" modifier="list-item" ></ons-switch>
+	        </ons-list-item>
+    	
+    		<ons-list-item ng-hide="memorable">
+				<span style="color: #666">Kleinbuchstaben ( a-z )</span>
+				<ons-switch var="PasswordConfig.inputs.lowerCase" ng-click="setPropInCtrl('lowerCase', PasswordConfig.inputs.lowerCase)" modifier="list-item" ></ons-switch>
+	        </ons-list-item>
+	        
+    		<ons-list-item ng-hide="memorable">
+				<span style="color: #666">Großbuchstaben ( A-Z )</span>
+				<ons-switch var="PasswordConfig.inputs.capitals" ng-click="setPropInCtrl('capitals', PasswordConfig.inputs.capitals)" modifier="list-item" ></ons-switch>
+	        </ons-list-item>
+	        
+    	</ons-list>
+    	
+    	
+    	<!-- init button -->
+        <ons-button style="margin: 0 0 0 15px;" ng-click="save()">
+    	    <i class="fa fa-check fa-lg" ng-show="saved" style="color: #FFF"></i> 
+    	    <i class="fa fa-spinner fa-spin fa-lg" ng-show="!saved" style="color: #FFF"></i> 
+        	Speichern
+        </ons-button>
+    </div>
+
+</ons-page>
