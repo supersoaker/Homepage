@@ -10,7 +10,18 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 section {
-  padding: 70px 0 80px;
+  padding: 70px 0px;
+}
+section em {
+  color: #4d6880;
+  font-style: normal;
+  border-bottom: 1px solid cornflowerblue;
+}
+section.blue-bg {
+  background-color: #92b6bd;
+}
+section.blue-bg em {
+  border: none;
 }
 #home {
   background-repeat: no-repeat;
@@ -164,14 +175,17 @@ section {
     display: none;
   }
 }
-#about .row .col-md-4 {
+#competences {
+  padding-bottom: 50px;
+}
+#competences .row .col-md-4 {
   text-align: center;
   margin-bottom: 50px;
 }
-#about .row .col-md-4 i.fa {
+#competences .row .col-md-4 i.fa {
   font-size: 50px;
 }
-#about .row .col-md-4 h3 {
+#competences .row .col-md-4 h3 {
   padding: 15px 0 10px;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -180,27 +194,50 @@ section {
   font-size: 20px;
   color: #000;
 }
-#about .row .col-md-4 p {
+#competences .row .col-md-4 p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin-top: 10px;
 }
-#login-manager-project {
-  background-color: #92b6bd;
+#aboutme {
+  padding: 120px 0;
+}
+#aboutme h3 {
+  font-size: 28px;
+}
+#aboutme p {
+  font-size: 16px;
+}
+#aboutme .profile-image {
+  text-align: center;
+  padding-top: 100px;
+}
+#aboutme .profile-image img {
+  max-width: 200px;
+  margin-top: -70px;
+  margin-bottom: 5px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  filter: lightgray;
+  /* IE6-9 */
+  filter: grayscale(0.7);
+  /* Firefox 35+ */
+  -webkit-filter: grayscale(0.7);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  /* Disable grayscale on hover
+      &:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+      }
+      */
 }
 #login-manager-project .col-md-8 {
   padding-bottom: 30px;
 }
 #login-manager-project .col-md-8 i {
   margin: 10px 0;
-}
-#login-manager-project .col-md-8 em {
-  color: #4d6880;
-  border: none;
-}
-#login-manager-project .col-md-8 p > em {
-  border: none;
 }
 #herbstzeit-project .link-button {
   border: 2px solid #163035;
@@ -212,18 +249,8 @@ section {
 img {
   max-width: 100%;
 }
-#geisterfahrer-project {
-  background-color: #71959c;
-}
 #geisterfahrer-project .col-md-8 {
   padding-bottom: 30px;
-}
-#geisterfahrer-project .col-md-8 em {
-  color: #E9E9E9;
-  border: none;
-}
-#geisterfahrer-project .col-md-8 p > em {
-  border: none;
 }
 #projects .link-button {
   border: 2px solid #163035;
@@ -322,8 +349,4 @@ h3 {
 }
 .projects .row .col-md-4 {
   text-align: center;
-}
-.projects .row .col-md-8 em {
-  font-style: normal;
-  border-bottom: 1px solid cornflowerblue;
 }

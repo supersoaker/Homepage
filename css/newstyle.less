@@ -8,6 +8,7 @@
   width: 28%;
 
 }
+
 @color1: rgb(195, 218, 184);
 @color2: rgb(136, 177, 168);
 @color3: rgb(47, 68, 98);
@@ -22,8 +23,24 @@ body {
   font-family: "Open Sans",sans-serif;
 }
 section {
-  padding: 70px 0 80px;
+  padding: 70px 0px;
+
+  em {
+    color: @color6;
+    font-style: normal;
+    border-bottom: 1px solid cornflowerblue;
+  }
+
+  &.blue-bg {
+
+    em {
+      border: none;
+    }
+    background-color: #92b6bd;
+  }
 }
+
+
 #home {
   background-repeat: no-repeat;
   background-size: contain;
@@ -178,7 +195,8 @@ section {
   }
 }
 
-#about {
+#competences {
+  padding-bottom: 50px;
   .row {
     .col-md-4 {
       text-align: center;
@@ -205,23 +223,50 @@ section {
   }
 }
 
+#aboutme {
+  padding: 120px 0;
+  h3 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .profile-image {
+    text-align: center;
+    padding-top: 100px;
+    img {
+
+      max-width: 200px;
+      margin-top: -70px;
+      margin-bottom: 5px;
+      border: 3px solid #fff;
+      border-radius: 100%;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+
+      filter: lightgray; /* IE6-9 */
+      filter: grayscale(0.7); /* Firefox 35+ */
+      -webkit-filter: grayscale(0.7); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+      /* Disable grayscale on hover
+      &:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+      }
+      */
+    }
+  }
+}
+
+
 #login-manager-project {
 //  background-color: @color4;
-  background-color: #92b6bd;
 //  padding: 30px 0 0;
 
   .col-md-8 {
     padding-bottom: 30px;
     i {
       margin: 10px 0;
-    }
-    em {
-//      color: #E9E9E9;
-      color: @color6;
-      border: none;
-    }
-    p > em {
-      border: none;
     }
   }
 }
@@ -243,7 +288,6 @@ img {
 }
 
 #geisterfahrer-project {
-  background-color: @color4;
   //  padding: 30px 0 0;
   .col-md-4 {
     img {
@@ -254,13 +298,6 @@ img {
   }
   .col-md-8 {
     padding-bottom: 30px;
-    em {
-      color: #E9E9E9;
-      border: none;
-    }
-    p > em {
-      border: none;
-    }
   }
 }
 
@@ -376,13 +413,6 @@ h3 {
   .row {
     .col-md-4 {
       text-align: center;
-    }
-    .col-md-8 {
-      em {
-        font-style: normal;
-        border-bottom: 1px solid cornflowerblue;
-      }
-
     }
   }
 }
