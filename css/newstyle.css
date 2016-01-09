@@ -105,6 +105,9 @@ section.blue-bg em {
   padding: 0px;
   margin: 0 0 15px 0;
 }
+#home .headline em {
+  border-bottom: none; 
+}
 #home .arrow {
   position: absolute;
   left: 50%;
